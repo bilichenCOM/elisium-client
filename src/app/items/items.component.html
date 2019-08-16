@@ -1,0 +1,12 @@
+<div class="container">
+<h2>Available items:</h2>
+	<div class="row">
+		<div class="col-sm-4" *ngFor="let item of items">
+			<img class="rounded" style="width: 33%; height: 33%;" src="{{item.imageUrl}}">
+			<h3>{{item.name}}</h3>
+			<p>{{item.description}}</p>
+			<p>&#36;{{item.price}}/m<sup>2</sup></p>
+			<button class="btn btn-outline-success">Order now</button>
+		</div>
+	</div>
+</div>
