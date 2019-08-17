@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ITEMS } from '../mock-items';
+
+import { Item } from '../_model/Item';
+import { ItemService } from '../item.service';
 
 @Component({
   selector: 'app-items',
@@ -8,11 +10,17 @@ import { ITEMS } from '../mock-items';
 })
 export class ItemsComponent implements OnInit {
 
-	items = ITEMS;
+	items: Item[];
 
-  constructor() { }
+  constructor(
+  	private itemService: ItemService
+  	) { }
 
   ngOnInit() {
+	  this.getAll();
   }
 
+  getAll() {
+	  this.itemService.getAll().subscribe(items => this.items = items);
+  }
 }

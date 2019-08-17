@@ -2,3 +2,9 @@
 	font-family:helvetica;
 	color: white;
 }
+
+footer {
+    clear: both;
+    position: inherit;
+    height: 60px;
+}

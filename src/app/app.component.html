@@ -1,5 +1,5 @@
 <nav class="navbar navbar-fixed navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" routerLink="/home">
     <img src="../assets/elisium-logo.jpeg" alt="Elisium logo" class="rounded" style="width: 80px;">
     <span class="brand-name"> Elisium Parquet &copy;</span>
   </a>
@@ -8,7 +8,7 @@
       <a class="nav-link" routerLink="/home">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" routerLink="#cat">Categories</a>
+      <a class="nav-link" routerLink="/categories">Categories</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" routerLink="/items">Items</a>
@@ -20,3 +20,27 @@
 </nav>
 
 <router-outlet></router-outlet>
+
+<footer class="footer bg-dark">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-3">
+        <a class="text-light" routerLink="#"> About us</a>
+      </div>
+      <div class="col-md-3">
+        <a class="text-light" routerLink="#"> Contacts</a>
+      </div>
+      <div class="col-md-3">
+        <a class="text-light" routerLink="#"> For partners</a>
+      </div>
+      <div class="col-md-3">
+        <a class="text-light" routerLink="#"> Press</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text-light">2019 Copyright &copy;</div>
+      </div>
+    </div>
+  </div>
+</footer>
