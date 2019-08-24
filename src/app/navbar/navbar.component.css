@@ -1,0 +1,14 @@
+.brand-img {
+	width: 150px;
+	height: 60px;
+}
+
+@font-face {
+	font-family: 'MinionPro-MediumCapt';
+	src: url('../../assets/web-omega/fonts/MinionPro-MediumCapt.otf');
+}
+
+.navbar {
+	background-color: #141414;
+	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
+}
