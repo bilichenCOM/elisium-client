@@ -1,4 +1,33 @@
-.jumborton {
-  background-image: url("../../assets/laminate.jpg");
-  background-size: cover;
+@font-face {
+	font-family: 'MinionPro-MediumCapt';
+	src: url('../../assets/fonts/MinionPro-MediumCapt.otf');
+}
+
+section#home-page {
+	background-image: url('../../assets/images/homepage/home-background.png');
+	background-size: cover;
+	height: 100vh;
+}
+
+.company-header {
+	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
+	font-size: 32px;
+	margin-top: 25%;
+}
+
+.more-button {
+	border-radius: 14px;
+	border-width: 3px;
+	border-color: #141414;
+	padding: 2px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+}
+
+.more-button:hover {
+	background-color: #141414;
+	font-weight: bold;
 }
