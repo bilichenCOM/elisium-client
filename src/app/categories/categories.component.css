@@ -1,4 +1,39 @@
-.card-img-top {
-	width: 348px;
-	height: 348px;
+@font-face {
+	font-family: 'MinionPro-MediumCapt';
+	src: url('../../assets/fonts/MinionPro-MediumCapt.otf');
+}
+
+section#categories-page {
+	background-color: #3B3B3B;
+	height: auto;
+	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
+	/*padding-top: 7%;*/
+}
+
+.category-header {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 7%;
+}
+
+img.category-logo {
+	border: solid;
+	border-color: #141414;
+	border-width: 2px;
+	height: 50%;
+}
+
+.category-name {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+.row-spacing {
+	line-height: 1.1;
+	padding-bottom: 0px;
+	maring-bottom: 0px;
+	padding: 0px !important;
+	margin: 0px !important;
 }

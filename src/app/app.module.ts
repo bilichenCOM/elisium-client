@@ -7,6 +7,7 @@ import { ItemsComponent } from './items/items.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CategoriesComponent } from './categories/categories.component';
     ItemsComponent,
     HomeComponent,
     AboutUsComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
