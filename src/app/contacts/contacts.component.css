@@ -1,0 +1,22 @@
+section#contacts-page {
+	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
+	background-color: #3B3B3B;
+	height: 100vh;
+	padding-top: 7%;
+}
+
+.header-text {
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+	letter-spacing: .17rem;
+	margin-top: 2%;
+}
+
+.contact-icon {
+	height: 2em;
+}
+
+.contact-letter-spacing {
+	letter-spacing: .17rem;
+}
