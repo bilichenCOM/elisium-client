@@ -1,0 +1,47 @@
+section#about-us-page {
+	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
+	background-color: #3B3B3B;
+	height: auto;
+}
+
+img.image-sized {
+	height: 60%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.row-spacing {
+	padding-top: 10%;
+	line-height: 0.1rem;
+}
+
+.header-about-us {
+	text-transform: uppercase;
+	color: white;
+}
+
+.text-about-us {
+	margin-top: 1.5rem;
+	font-size: 18px;
+	text-transform: full-width;
+	letter-spacing: .17rem;
+	color: white;
+	line-height: 1.5;
+}
+
+.more-button {
+	border-radius: 14px;
+	border-width: 3px;
+	border-color: #141414;
+	padding: 3px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+}
+
+.more-button:hover {
+	background-color: #141414;
+	font-weight: bold;
+}
