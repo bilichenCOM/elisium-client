@@ -1,34 +1,40 @@
 section#categories-page {
 	background-color: #3B3B3B;
-	height: auto;
 	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
-	/*padding-top: 7%;*/
+}
+
+.container-fluid {
+	padding-left: 10vmin;
+	padding-right: 10vmin;
 }
 
 .category-header {
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
-	padding-top: 7%;
+	padding-top: 6%;
 }
 
-img.category-logo {
-	border: solid;
-	border-color: #141414;
-	border-width: 2px;
-	height: 50%;
+.category-logo {
+	height: 30vmin;
+	width: 30vmin;
 }
 
-.category-name {
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
+@media (min-width: 1200px) {
+	.category-logo {
+		height: 50vmin;
+		width: 50vmin;
+	}
 }
 
-.row-spacing {
-	line-height: 1.1;
-	padding-bottom: 0px;
-	maring-bottom: 0px;
-	padding: 0px !important;
-	margin: 0px !important;
+.list-spacing {
+	margin-bottom: 3vmin;
+}
+
+.text-description {
+	font-size: 2vmin;
+}
+
+.letter-spacing {
+	letter-spacing: 0.15rem;
 }

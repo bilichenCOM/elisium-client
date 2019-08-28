@@ -9,6 +9,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { ContactsComponent } from './contacts/contacts.component';
     AboutUsComponent,
     CategoriesComponent,
     NavbarComponent,
-    ContactsComponent
+    ContactsComponent,
+    FooterComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
+    // AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
