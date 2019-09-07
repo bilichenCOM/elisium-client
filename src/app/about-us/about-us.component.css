@@ -4,10 +4,15 @@ section#about-us-page {
 	height: auto;
 }
 
-img.image-sized {
-	height: 60%;
-	margin: 0px;
-	padding: 0px;
+.container-fluid {
+	padding-left: 10vmin;
+	padding-right: 10vmin;
+}
+
+.image-spacing {
+	height: 70vmin;
+	width: auto;
+	margin-bottom: 5%;
 }
 
 .row-spacing {
@@ -22,26 +27,9 @@ img.image-sized {
 
 .text-about-us {
 	margin-top: 1.5rem;
-	font-size: 18px;
+	font-size: 3vmin;
 	text-transform: full-width;
 	letter-spacing: .17rem;
 	color: white;
 	line-height: 1.5;
-}
-
-.more-button {
-	border-radius: 14px;
-	border-width: 3px;
-	border-color: #141414;
-	padding: 3px;
-	padding-bottom: 0px;
-	font-size: 14px;
-	background-color: transparent;
-	color: white;
-	text-transform: uppercase;
-}
-
-.more-button:hover {
-	background-color: #141414;
-	font-weight: bold;
 }

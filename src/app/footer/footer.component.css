@@ -1,0 +1,10 @@
+.footer-styled {
+	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
+	background-color: #141414;
+}
+
+.text-year {
+	color: white;
+	letter-spacing: .17rem;
+	font-size: 1.2rem;
+}

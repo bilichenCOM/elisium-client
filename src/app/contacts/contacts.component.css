@@ -1,8 +1,17 @@
 section#contacts-page {
 	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
 	background-color: #3B3B3B;
-	height: 100vh;
-	padding-top: 7%;
+	height: auto;
+	padding-bottom: 3%;
+	padding-top: 6%;
+	padding-left: 10vmin;
+	padding-right: 10vmin;
+	/*padding-top: 7%;*/
+}
+
+.container-fluid {
+	padding-left: 5vmin;
+	padding-right: 5vmin;
 }
 
 .header-text {
@@ -10,13 +19,27 @@ section#contacts-page {
 	text-align: left;
 	color: white;
 	letter-spacing: .17rem;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 }
 
 .contact-icon {
-	height: 2em;
+	height: 7vmin;
 }
 
 .contact-letter-spacing {
-	letter-spacing: .17rem;
+	letter-spacing: .17vmin;
+	font-size: 3vmin;
+}
+
+.image-map {
+	width: 60vmin;
+	padding-bottom: 3vmin;
+}
+
+.mt-reduced {
+	margin-top: -13vmin;
+}
+
+.jumbotron {
+	background-color: grey;
 }
