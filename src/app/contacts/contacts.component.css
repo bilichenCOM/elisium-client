@@ -6,7 +6,6 @@ section#contacts-page {
 	padding-top: 6%;
 	padding-left: 10vmin;
 	padding-right: 10vmin;
-	/*padding-top: 7%;*/
 }
 
 .container-fluid {
@@ -14,16 +13,20 @@ section#contacts-page {
 	padding-right: 5vmin;
 }
 
+.jumbotron {
+	background-color: grey;
+}
+
 .header-text {
 	text-transform: uppercase;
 	text-align: left;
+	font-weight: 700;
 	color: white;
 	letter-spacing: .17rem;
-	/*margin-top: 2%;*/
 }
 
 .contact-icon {
-	height: 7vmin;
+	height: 5vmin;
 }
 
 .contact-letter-spacing {
@@ -33,13 +36,4 @@ section#contacts-page {
 
 .image-map {
 	width: 60vmin;
-	padding-bottom: 3vmin;
-}
-
-.mt-reduced {
-	margin-top: -13vmin;
-}
-
-.jumbotron {
-	background-color: grey;
 }

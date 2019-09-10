@@ -11,18 +11,17 @@ section#categories-page {
 .category-header {
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: 700;
 	color: white;
 	padding-top: 6%;
 }
 
 .category-logo {
-	height: 30vmin;
-	width: 30vmin;
+	width: 80vmin;
 }
 
 @media (min-width: 1200px) {
 	.category-logo {
-		height: 50vmin;
 		width: 50vmin;
 	}
 }
