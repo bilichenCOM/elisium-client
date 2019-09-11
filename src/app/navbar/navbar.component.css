@@ -4,8 +4,15 @@
 }
 
 .brand-img {
-	height: 50px;
+	height: 10vmin;
 	width: auto;
-	margin: auto;
 	padding: 0px;
+	margin-right: 30vw;
+}
+
+@media (min-width: 768px) {
+	.brand-img {
+		height: 50px;
+		margin: auto;
+	}
 }

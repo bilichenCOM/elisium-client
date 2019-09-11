@@ -10,7 +10,7 @@ section#about-us-page {
 }
 
 .image-spacing {
-	height: 70vmin;
+	height: 30vw;
 	width: auto;
 	margin-bottom: 5%;
 }
@@ -28,7 +28,7 @@ section#about-us-page {
 
 .text-about-us {
 	margin-top: 1.5rem;
-	font-size: 3vmin;
+	font-size: 2.5vmin;
 	font-weight: 100;
 	letter-spacing: .17rem;
 	color: white;

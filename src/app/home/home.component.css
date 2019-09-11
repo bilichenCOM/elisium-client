@@ -27,14 +27,14 @@ section#home-page {
 	padding-left: 10px;
 	padding-right: 10px;
 	font-size: 12px;
-	background-color: grey;
+	background-color: #141414;
 	color: white;
 	text-transform: uppercase;
 }
 
 .more-button:hover {
 	background-color: transparent;
-	border-color: grey;
+	border-color: #141414;
 	font-weight: bold;
 }
 

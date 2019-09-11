@@ -17,12 +17,12 @@ section#categories-page {
 }
 
 .category-logo {
-	width: 80vmin;
+	width: 80vw;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 	.category-logo {
-		width: 50vmin;
+		width: 25vw;
 	}
 }
 
