@@ -37,11 +37,3 @@ section#categories-page {
 .letter-spacing {
 	letter-spacing: 0.15rem;
 }
-
-.horizontal-line {
-      border-width: 2px;
-      border-radius: 1px;
-      border-color: #141414;
-      background-color: #3B3B3B;
-      font-weight: 100;
-}

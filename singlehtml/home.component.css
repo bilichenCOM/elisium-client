@@ -1,0 +1,45 @@
+section#home-page {
+	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
+	background-image: url('./assets/images/homepage/home-background.png');
+	background-size: cover;
+	height: 100vh;
+}
+
+.company-header {
+	font-size: 6vmin;
+	margin-top: 30vmin;
+}
+
+@media screen and (min-width: 500px) {
+	.company-header {
+		font-size: 31px;
+		margin-top: 25vmin;
+	}
+}
+
+.more-button {
+	border-radius: 14px;
+	border-width: 1px;
+	border-color: #303030;
+	margin-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+	background-color: #141414;
+	color: white;
+	text-transform: uppercase;
+}
+
+.more-button:hover {
+	background-color: transparent;
+	border-color: #141414;
+	font-weight: bold;
+}
+
+.more-button:active {
+	background-color: white;
+	color: black;
+	outline-color: white;
+}

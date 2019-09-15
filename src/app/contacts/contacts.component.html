@@ -3,7 +3,7 @@
 		<div class="row mt-md-5">
 			<div class="col-sm-12 col-lg-7">
 				<ul class="list-unstyled text-white contact-letter-spacing">
-					<li class="pb-md-4 pb-sm-4">
+					<li class="pb-md-4 pb-sm-5">
 						<div class="h2 header-text text-lg-left text-center">Зв'яжіться з нами</div>
 					</li>
 					<li class="pb-md-4 pb-sm-5">
@@ -24,10 +24,10 @@
 							facebook.com/omegatradeinvest
 						</a>
 					</li>
-					<li class="pb-md-4 pb-sm-4">
+					<li class="pb-md-4 pb-sm-5">
 						<ul class="list-inline">
-							<li class="list-inline-item my-auto">
-								<img src="../../assets/images/contacts/location.png" class="contact-icon mb-sm-5 pt-sm-0">
+							<li class="list-inline-item">
+								<img src="../../assets/images/contacts/location.png" class="contact-icon mb-sm-5 pt-sm-0 mt-0">
 							</li>
 							<li class="list-inline-item my-auto">
 								OMEGA TRADE INVEST Office 1042,<br >
@@ -41,9 +41,34 @@
 			<div class="col-sm-12 col-lg-5 text-lg-right text-center">
 				<!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=Kyiv,Ukraine&zoom=13&size=400x400&maptype=roadmap&markers=color:blue%7Clabel:S%7C50.4204542,30.5262178&key=AIzaSyAXwltgFeo6ElEsMA7gT2WBbjrq4stO3nY" 
 				class="image-map"> -->
-				<a href="../../assets/images/contacts/map.png">
+				<button class="btn btn-link" data-toggle="modal" data-target="#modalMap">
 					<img src="../../assets/images/contacts/map.png" title="Натисність для збільшення" class="image-map mr-sm-5">
-				</a>
+				</button>
+
+				<div id="modalMap" class="modal fade">
+					<div class="modal-dialog px-0 mx-0">
+						<div class="modal-content modal-body-transparent">
+							<div class="container modal-body">
+								<div class="row">
+									<div class="col-sm-12 col-lg-6">
+										<img src="../../assets/images/contacts/map.png" class="image-map-modal">
+									</div>
+									<div class="col-sm-12 col-lg-6 text-left">
+										<div class="text-left text-white">
+											OMEGA TRADE INVEST Office 1042,<br >
+											Kyiv, Ukraine 4-6 Ionna Pavla II st.;<br >
+											building B; office 1306
+										</div>
+										<a class="text-danger" data-toggle="modal" data-target="#modalMap">
+											Закрити
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</div>

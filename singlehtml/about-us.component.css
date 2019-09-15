@@ -2,9 +2,11 @@ section#about-us-page {
 	font-family: 'MinionPro-MediumCapt', Helvetica, serif;
 	background-color: #3B3B3B;
 	height: auto;
-	padding-left: 5vmin;
-	padding-right: 5vmin;
+}
 
+.container-fluid {
+	padding-left: 5vmin;
+	padding-right: 10vmin;
 }
 
 .image-spacing {
@@ -34,15 +36,9 @@ section#about-us-page {
 
 .text-about-us {
 	margin-top: 1.5rem;
-	font-size: 3.5vmin;
+	font-size: 2.5vmin;
 	font-weight: 100;
 	letter-spacing: .17rem;
 	color: white;
 	line-height: 1.5;
-}
-
-@media (min-width: 992px) {
-	.text-about-us {
-		font-size: 2.5vmin;
-	}
 }

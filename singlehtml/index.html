@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>OmegaClient</title>
+  <!-- <base href="/"> -->
+
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./navbar.component.css">
+  <link rel="stylesheet" type="text/css" href="./home.component.css">
+  <link rel="stylesheet" type="text/css" href="./categories.component.css">
+  <link rel="stylesheet" type="text/css" href="./about-us.component.css">
+  <link rel="stylesheet" type="text/css" href="./contacts.component.css">
+  <link rel="stylesheet" type="text/css" href="./footer.component.css">
+  <style type="text/css">
+    @font-face {
+      font-family: 'MinionPro-MediumCapt';
+      src: url('./assets/fonts/MinionPro-MediumCapt.otf');
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .horizontal-line {
+      border-width: 2px;
+      border-radius: 1px;
+      border-color: #141414;
+      background-color: #3B3B3B;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top text-uppercase">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <img class="navbar-brand brand-img img-responsive d-block d-lg-none" src="./assets/images/navbar/omega-logo.png">
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="nav navbar-nav col-sm-5 px-sm-0">
+      <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+        <a class="nav-link" href="#home-page">Головна</a>
+      </li>
+      <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+        <a class="nav-link my-auto" href="#categories-page">Каталог продукції</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav col-sm-2 text-center d-none d-lg-block px-0">
+      <li class="nav-item my-auto">
+        <a class="nav-link navbar-brand my-0 py-0 px-0 mx-0" href="#home-page">
+          <img id="center-logo" class="brand-img img-fluid" src="./assets/images/navbar/omega-logo.png">
+        </a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav col-sm-5 px-sm-0">
+      <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+        <a class="nav-link" href="#about-us-page">Про нас</a>
+      </li>
+      <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+        <a class="nav-link" href="#contacts-page">Зв'язатися</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home-page">
+  <div class="container mr-0">
+    <div class="row">
+      <div class="col-sm-12 col-lg-8 ml-sm-0 ml-lg-auto">
+        <div class="company-header text-left text-uppercase">
+            <div class="py-0">
+            <span>
+              Omega Trade Invest - Гарант якості <br >
+              на українському ринку <br >
+              масложирової продукції
+            </span>
+            <a class="my-auto" href="#categories-page">
+              <button class="btn more-button">Дізнатися більше &gt;</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="categories-page">
+  <div class="h2 category-header">
+    Асортимент нашої продукції
+  </div>
+  <div class="container-fluid mt-sm-5">
+    <div class="row">
+      <div class="col-md-12 col-lg-4 text-center text-white text-uppercase pb-sm-5">
+        <ul class="list-unstyled">
+          <li class="list-spacing">
+            <img src="./assets/images/categories/1.png" alt="Маргарини" class="category-logo">
+          </li>
+          <li>
+            <p class="h4 letter-spacing">Маргарини</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12 col-lg-4 text-center text-white text-uppercase pb-sm-5">
+        <ul class="list-unstyled">
+          <li class="list-spacing">
+            <img src="./assets/images/categories/2.png" alt="Какао Масла" class="category-logo">
+          </li>
+          <li>
+            <p class="h4 letter-spacing">Какао Масла</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12 col-lg-4 text-center text-white text-uppercase pb-sm-5">
+        <ul class="list-unstyled">
+          <li class="list-spacing">
+            <img src="./assets/images/categories/3.png" alt="Замінники молочного жиру" class="category-logo">
+          </li>
+          <li>
+            <p class="h4 letter-spacing">Замінники молочного жиру</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12 col-lg-4 text-center text-white text-uppercase pb-sm-5">
+        <ul class="list-unstyled">
+          <li class="list-spacing">
+            <img src="./assets/images/categories/4.png" alt="Тропічні масла" class="category-logo">
+          </li>
+          <li>
+            <p class="h4 letter-spacing">Тропічні масла</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12 col-lg-4 text-center text-white text-uppercase pb-sm-5">
+        <ul class="list-unstyled">
+          <li class="list-spacing">
+            <img src="./assets/images/categories/5.png" alt="Спеціалізовані жири" class="category-logo">
+          </li>
+          <li>
+            <p class="h4 letter-spacing">Спеціалізовані жири</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12 col-lg-4 text-center text-white text-uppercase pb-sm-5">
+        <ul class="list-unstyled">
+          <li class="list-spacing">
+            <img src="./assets/images/categories/6.png" alt="Соняшникова олія" class="category-logo">
+          </li>
+          <li>
+            <p class="h4 letter-spacing">Соняшникова олія</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="horizontal-line pt-2">
+  <hr class="horizontal-line my-0 mx-5">
+</div>
+
+<section id="about-us-page">
+  <div class="container-fluid">
+    <div class="row h-5 row-spacing">
+      <div class="col-sm-12 col-lg-5 pt-sm-5 pt-md-0 text-center">
+        <img src="./assets/images/about-us/oil.png" alt="oil picture" class="image-spacing">
+      </div>
+      <div class="col-sm-12 col-lg-7 pl-lg-3 text-sm-center text-md-left">
+        <div class="h2 text-lg-left text-center header-about-us">
+          Хто ми?
+        </div>
+        <p class="text-about-us text-justify">
+          OMEGA TRADE INVEST - молода торгівельна компанія, розташована в Києві. Наша ціль - постачання масложирової продукції вищого ґатунку, без консервантів чи антиоксидантів, за розумними цінами та гарантіями якості. Ми пропонуємо широкий вибір, який охоплює необмежене коло споживачів. Наш асортимент нараховує більш ніж 50 найменувань.<br > Зв'яжіться з нами, щоб дізнатись більше.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacts-page">
+  <div class="container-fluid jumbotron pt-sm-5 pt-lg-2 pb-sm-5">
+    <div class="row mt-md-5">
+      <div class="col-sm-12 col-lg-7">
+        <ul class="list-unstyled text-white contact-letter-spacing">
+          <li class="pb-md-4 pb-sm-4">
+            <div class="h2 header-text text-lg-left text-center">Зв'яжіться з нами</div>
+          </li>
+          <li class="pb-md-4 pb-sm-5">
+            <span><img src="./assets/images/contacts/phone-big.png" class="contact-icon"></span>
+            <a href="tel:380445285225" class="text-white ml-sm-1">
+              +38 (044) 528 52 25
+            </a>
+          </li>
+          <li class="pb-md-4 pb-sm-5">
+            <span><img src="./assets/images/contacts/email-envelope.png" class="contact-icon"></span>
+            <a href="mailto:om.trade.invest@gmail.com" class="text-white ml-sm-1">
+              om.trade.invest@gmail.com
+            </a>
+          </li>
+          <li class="pb-md-4 pb-sm-5">
+            <span><img src="./assets/images/contacts/facebook-icon.png" class="contact-icon"></span>
+            <a href="https://facebook.com/omegatradeinvest" class="text-white ml-sm-1">
+              facebook.com/omegatradeinvest
+            </a>
+          </li>
+          <li class="pb-md-4 pb-sm-4">
+            <ul class="list-inline">
+              <li class="list-inline-item my-auto">
+                <img src="./assets/images/contacts/location.png" class="contact-icon mb-sm-5 pt-sm-0">
+              </li>
+              <li class="list-inline-item my-auto">
+                OMEGA TRADE INVEST Office 1042,<br >
+                Kyiv, Ukraine 4-6 Ionna Pavla II st.;<br >
+                building B; office 1306
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-lg-5 text-lg-right text-center">
+        <!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=Kyiv,Ukraine&zoom=13&size=400x400&maptype=roadmap&markers=color:blue%7Clabel:S%7C50.4204542,30.5262178&key=<YOUR-API-TOKEN>" 
+        class="image-map"> -->
+        <a href="./assets/images/contacts/map.png">
+          <img src="./assets/images/contacts/map.png" title="Натисність для збільшення" class="image-map mr-sm-5">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-styled">
+  <div class="container">
+    <div class="row py-2">
+      <div class="col-sm-12 text-center">
+        <span class="text-year">2019&copy; Omega Trade Invest</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- JScript for Bootstrap -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/jquery-3.4.1.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  <!--  -->
+  <!-- Navbar collapsing script -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.navbar-nav a').click(function() {
+          $('.navbar-collapse').collapse('hide');
+        });
+      });
+    </script>
+  <!--  -->
+</body>
+</html>
